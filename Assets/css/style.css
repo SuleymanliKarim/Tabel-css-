@@ -1,0 +1,55 @@
+.users {
+    background-color:rgb(255, 248, 248);
+    width: 50%;
+    height: 100px auto;
+    margin-left: 250px;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+  
+}
+.users{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.head {
+    background-color: black;
+    color: white;
+font-weight: 30px;
+}
+tbody td {
+    height: 50px;
+}
+tbody td:hover {
+    cursor: pointer;
+    background-color: red;
+}
+.users tr:hover{
+    background-color: red;
+    cursor: pointer;
+
+}
+thead th{
+text-align: start;
+}
+tbody tr td {
+    text-align: start;
+} 
+tbody tr:nth-child(1){
+    
+    background-color: #E7E9EB;
+}
+tbody tr:nth-child(3){
+    
+    background-color: #E7E9EB;
+}
+tbody tr:nth-child(5){
+    
+    background-color: #E7E9EB;
+}
+.head th:hover{
+    background-color: yellow;
+    cursor: pointer;
+
+}
